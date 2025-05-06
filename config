@@ -184,6 +184,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Display Wallpaper
+exec_always feh --bg-fill /home/prism/Pictures/Backgronds/4k.jpg
+
 # Allocate applications to workspaces
 for_window [class="kitty"] move to workspace $ws1
 for_window [class="librewolf"] move to workspace $ws2
