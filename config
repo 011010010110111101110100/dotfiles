@@ -184,6 +184,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# Monitor Config
+exec --no-startup-id xrandr --output DP-4 --mode 1920x1080 --refresh 100
+
 # Display Wallpaper
 exec_always feh --bg-fill /home/prism/Pictures/Backgronds/4k.jpg
 
