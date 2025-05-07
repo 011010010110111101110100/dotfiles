@@ -120,7 +120,7 @@ set $ws2 "2: Librewolf"
 set $ws3 "3: Vesktop"
 set $ws4 "4: VSCode"
 set $ws5 "5: Virtual Machine"
-set $ws6 "6: Workspace"
+set $ws6 "6: Games"
 set $ws7 "7: Workspace"
 set $ws8 "8: Workspace"
 set $ws9 "9: Workspace"
@@ -196,6 +196,7 @@ for_window [class="librewolf"] move to workspace $ws2
 for_window [class="vesktop"] move to workspace $ws3
 for_window [class="Code"] move to workspace $ws4
 for_window [class="Virt-manager"] move to workspace $ws5
+for_window [class="steam"] move to workspace $ws6
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
