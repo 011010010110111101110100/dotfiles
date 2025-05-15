@@ -117,8 +117,8 @@ bindsym $mod+a focus parent
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Terminal"
 set $ws2 "2: Librewolf"
-set $ws3 "3: Vesktop"
-set $ws4 "4: VSCode"
+set $ws3 "3: Chat"
+set $ws4 "4: Code"
 set $ws5 "5: Virtual Machine"
 set $ws6 "6: Games"
 set $ws7 "7: Workspace"
@@ -194,7 +194,7 @@ exec_always feh --bg-fill /home/prism/Pictures/Backgronds/4k.jpg
 for_window [class="kitty"] move to workspace $ws1
 for_window [class="librewolf"] move to workspace $ws2
 for_window [class="vesktop"] move to workspace $ws3
-for_window [class="Code"] move to workspace $ws4
+for_window [class="Cursor"] move to workspace $ws4
 for_window [class="Virt-manager"] move to workspace $ws5
 for_window [class="steam"] move to workspace $ws6
 
