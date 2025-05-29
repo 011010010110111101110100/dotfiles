@@ -1,1 +1,1 @@
-sudo apt install i3 i3status i3blocks rofi kitty feh picom
+sudo apt install i3 i3status i3blocks rofi kitty feh picom libfuse2 gcc python-is-python3 build-essential git
