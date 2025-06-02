@@ -188,15 +188,19 @@ bindsym $mod+r mode "resize"
 exec --no-startup-id xrandr --output DP-4 --mode 1920x1080 --refresh 100
 
 # Display Wallpaper
-exec_always feh --bg-fill /home/prism/Pictures/Backgronds/4k.jpg
+exec_always feh --bg-fill /home/rose/Pictures/Backgronds/4k.jpg
 
 # Allocate applications to workspaces
 for_window [class="kitty"] move to workspace $ws1
 for_window [class="librewolf"] move to workspace $ws2
 for_window [class="vesktop"] move to workspace $ws3
+for_window [class="Signal"] move to workspace $ws3
+for_window [class="Session"] move to workspace $ws3
+for_window [class="TelegramDesktop"] move to workspace $ws3
 for_window [class="Cursor"] move to workspace $ws4
 for_window [class="Virt-manager"] move to workspace $ws5
 for_window [class="steam"] move to workspace $ws6
+for_window [class="PrismLauncher"] move to workspace $ws6
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
