@@ -49,7 +49,7 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec xterm
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -191,14 +191,14 @@ exec --no-startup-id xrandr --output DP-4 --mode 1920x1080 --refresh 100
 exec_always feh --bg-fill /home/rose/Pictures/Backgronds/4k.jpg
 
 # Allocate applications to workspaces
-for_window [class="kitty"] move to workspace $ws1
+for_window [class="XTerm"] move to workspace $ws1
 for_window [class="librewolf"] move to workspace $ws2
 for_window [class="vesktop"] move to workspace $ws3
 for_window [class="Signal"] move to workspace $ws3
 for_window [class="Session"] move to workspace $ws3
 for_window [class="TelegramDesktop"] move to workspace $ws3
 for_window [class="TeamSpeak"] move to workspace $ws3
-for_window [class="Cursor"] move to workspace $ws4
+for_window [class="Sublime_text"] move to workspace $ws4
 for_window [class="Virt-manager"] move to workspace $ws5
 for_window [class="steam"] move to workspace $ws6
 for_window [class="PrismLauncher"] move to workspace $ws6
