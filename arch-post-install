@@ -1,6 +1,6 @@
 DEPENDENCIES:
 
-sudo pacman -S linux-headers gvfs-smb git network-manager-applet rofi feh firefox pcmanfm-gtk3 fuse2 gnome-themes-extra gtk2 gtk3 gtk4 lxappearance git otf-font-awesome flatpak fastfetch hyfetch flameshot noto-fonts ttf-dejavu ffmpeg x264 vlc vlc-plugins-all polkit polkit-gnome file-roller brightnessctl
+sudo pacman -S linux-headers gvfs-smb rofi feh firefox pcmanfm-gtk3 fuse2 git gnome-themes-extra gtk2 gtk3 gtk4 lxappearance git otf-font-awesome flatpak fastfetch hyfetch flameshot noto-fonts ttf-dejavu ttf-liberation noto-fonts-cjk noto-fonts-emoji ttf-droid ttf-roboto ffmpeg x264 vlc vlc-plugins-all polkit polkit-gnome file-roller brightnessctl
 
 ----------------------------------------------------------------------------------------------------
 WM CONFIG LINKS:
@@ -15,6 +15,10 @@ nano ~/.Xresources
 Xft.dpi: 85
 xterm*background: black
 xterm*foreground: white
+XTerm.termName: xterm-256color
+XTerm.vt100.locale: false
+XTerm.vt100.utf8: true
+XTerm.vt100.backarrowKey: false
 
 xrdb -merge ~/.Xresources
 
